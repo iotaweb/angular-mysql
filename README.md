@@ -9,6 +9,7 @@ https://github.com/ccoenraets/angular-cellar
 1. Angular.js v1.0.8 (current stable release)
 2. MySQL
 3. PHP Slim framework (API)
+4. Bootstrap 3
 
 ### Set Up
 
