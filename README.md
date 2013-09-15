@@ -9,11 +9,12 @@ https://github.com/ccoenraets/angular-cellar
 1. Angular.js v1.0.8 (current stable release)
 2. MySQL
 3. PHP Slim framework (API)
+4. Bootstrap 3
 
 ### Set Up
 
 1. Create a MySQL database name 'angular-mysql'
-2. OPTIONAL: Run install/angular-mysql.sql to create and populate the 'users' table (includes four dummy users)
+2. Run install/angular-mysql.sql to create and populate the 'users' table (includes four dummy users)
 3. Create Apache virtual root and point to 'app' folder
     
 ### Notes
