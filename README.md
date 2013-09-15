@@ -13,13 +13,13 @@ https://github.com/ccoenraets/angular-cellar
 
 ### Set Up
 
-1. Create a MySQL database name 'angular-mysql'
-2. Run install/angular-mysql.sql to create and populate the 'users' table (includes four dummy users)
-3. Create Apache virtual root and point to 'app' folder
+1. Create a MySQL database named **angular-mysql**
+2. Run `install/angular-mysql.sql` to create and populate the **users** table (includes four dummy users)
+3. Create Apache virtual root and point to `/app` folder
     
 ### Notes
 
-The .htaccess file in the 'app' folder redirects all requests to index.html (needed by Angular application)
+The `.htaccess` file in the `/app` folder redirects all requests to `index.html` (needed by Angular application)
 
 ### API Endpoints
 
