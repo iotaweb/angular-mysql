@@ -1,6 +1,8 @@
 # Angular MySQL Application
 
-This application is a sample CRUD application built with Angular.js and MySQL and a RESTful API.
+This application is a sample CRUD application built with Angular.js and MySQL and a RESTful API. Based on the sample application angular-cellar by Christophe Coenraets:
+
+https://github.com/ccoenraets/angular-cellar
 
 ### Uses
 
@@ -20,9 +22,9 @@ The .htaccess file in the 'app' folder redirects all requests to index.html (nee
 
 ### API Endpoints
 
-GET     /api/users                  Gets all users
-POST    /api/users                  Creates a new user
-GET     /api/users/:id              Gets a user by Id
-GET     /api/users/search/:query    Searches user by name
-PUT     /api/users/:id              Updates a user by Id
-DELETE  /api/users/:id              Deletes a user by Id
+    GET         /api/users                  Gets all users
+    POST        /api/users                  Creates a new user
+    GET         /api/users/:id              Gets a user by Id
+    GET         /api/users/search/:query    Searches user by name
+    PUT         /api/users/:id              Updates a user by Id
+    DELETE      /api/users/:id              Deletes a user by Id
