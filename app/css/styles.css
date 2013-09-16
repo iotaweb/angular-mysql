@@ -28,12 +28,8 @@ body {
 .blue, a.blue  { color: #428bca }
 .green, a.green { color: #47a447 }
 
-a {
-    cursor: pointer !important;
-}
-
-a:hover .glyphicon {
-    text-decoration: none;
+a.glyphicon {
+    cursor: pointer;
 }
 
 .pull-up { margin: -45px 0 15px 0 }
