@@ -28,6 +28,10 @@ body {
 .blue, a.blue  { color: #428bca }
 .green, a.green { color: #47a447 }
 
+a {
+    cursor: pointer !important;
+}
+
 a:hover .glyphicon {
     text-decoration: none;
 }

@@ -5,7 +5,7 @@
 var app = angular.module('myApp.controllers', [
     'ng',
     'ngResource',   
-    'myApp.services'
+    'myApp.services'    
 ]);
 
 
@@ -43,8 +43,8 @@ app.controller('UsersController', function($resource, $scope, $location, $route)
     
         User.delete( 
             function() {
-                // success
-                $location.path('/users');                 
+                // success  
+                $route.reload();             
             },
             function() {
                 // error
