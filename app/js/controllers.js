@@ -46,7 +46,7 @@ app.controller('UsersController', function($resource, $scope, $location, $route)
                 // success  
                 $route.reload();             
             },
-            function() {
+            function(error) {
                 // error
                 console.log(error);
             }
@@ -78,7 +78,7 @@ app.controller('UserController', function($routeParams, $resource, $scope, $loca
                     // success
                     $location.path('/users');                     
                 },
-                function() {
+                function(error) {
                     // error
                     console.log(error);
                 }               
@@ -97,7 +97,7 @@ app.controller('UserController', function($routeParams, $resource, $scope, $loca
                     // success
                     $location.path('/users');                     
                 },
-                function() {
+                function(error) {
                     // error
                     console.log(error);
                 }
@@ -115,7 +115,7 @@ app.controller('UserController', function($routeParams, $resource, $scope, $loca
                 // success
                 $location.path('/users');                     
             },
-            function() {
+            function(error) {
                 // error
                 console.log(error);
             }
