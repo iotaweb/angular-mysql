@@ -6,7 +6,7 @@ https://github.com/ccoenraets/angular-cellar
 
 ### Uses
 
-1. Angular.js v1.0.8 (current stable release)
+1. Angular.js v1.2.18 (from cloudflare CDN)
 2. MySQL
 3. PHP Slim framework (API)
 4. Bootstrap 3
